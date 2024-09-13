@@ -46,6 +46,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "arrayPush",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "greeting",
 				"outputs": [
 					{
@@ -89,6 +102,78 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readReturn",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnMultiple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_array",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -104,7 +189,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/solidity/HelloWeb3.sol": "HelloWeb3"
+			"contracts/solidity/solidity101/HelloWeb3.sol": "HelloWeb3"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -118,12 +203,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/solidity/HelloWeb3.sol": {
-			"keccak256": "0xc723d9bd967b1711ebaefc9a34105fd5117fd6156e4fff17450ad5cabcf9721b",
+		"contracts/solidity/solidity101/HelloWeb3.sol": {
+			"keccak256": "0xfc7c6cde11eeb56e409aa9a4f0c2c5e7430b9482ff0609cf0d0a36dcf8a7da37",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ebb6c3be1ff9c7b96ea54e1e772da46ac9f3f03b4de0cbfa3ef7d727df0cd80a",
-				"dweb:/ipfs/QmUhovHDtLEyWBBMjNXnhziTeNFw6DxNnBYswx1AWq9dEe"
+				"bzz-raw://439ed9ddaf55e39e52242209784aeaf448839ee803bb45bfd98a7138819a394b",
+				"dweb:/ipfs/QmbMEFfijy7ksjtHVt6DXrPmQtDjsDMDL1EJa7Xw7sNSy7"
 			]
 		}
 	},
