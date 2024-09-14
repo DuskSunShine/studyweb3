@@ -4,8 +4,8 @@ pragma solidity >=0.8.22 <0.9.0;
 contract HelloWeb3 {
     string public greeting = "Hello, Web3!";
 
-    uint256 public  number = 5;
-    uint256[2] public result=[1,2];
+    uint256 public number = 5;
+    uint256[2] public result = [1, 2];
 
     /****************************************
 
@@ -17,7 +17,6 @@ contract HelloWeb3 {
     function add() external {
         number = number + 1;
     }
-
 
     //pure 关键字 不能读取和改变状态变量
     function addPure(uint256 _number)
@@ -89,23 +88,15 @@ contract HelloWeb3 {
     }
 
     // 读取返回值，解构式赋值
-    function readReturn() public pure{
+    function readReturn() public pure {
         // 读取全部返回值
         uint256 _number;
         bool _bool;
         bool _bool2;
         uint256[3] memory _array;
         (_number, _bool, _array) = returnNamed();
-        
+
         // 读取部分返回值，解构式赋值
         (, _bool2, ) = returnNamed();
-    }
-    
-    uint[] array4;
-     function arrayPush() public returns(uint[] memory){
-        uint[2] memory a = [uint(1),2];
-        array4 = a;
-        array4.push(3);
-        return array4;
     }
 }
