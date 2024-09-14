@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "talk2Super",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "talkSuper",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity/solidity101/extend/SuperParent.sol": "SuperParent"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity/solidity101/extend/SuperParent.sol": {
+			"keccak256": "0x7cd26d43009ecf573ec20eb1d155252bda9290af4fd77cd36fdfd204ff0512b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://533ad06b7b8f836f74d3cf18544710b2eae62630b19b0377d54b157246b0f0e6",
+				"dweb:/ipfs/QmZq7Q4Rus3qcVwjPEsC5qbfWKn68UNeZ4tCqXC4ApGUMV"
+			]
+		}
+	},
+	"version": 1
+}

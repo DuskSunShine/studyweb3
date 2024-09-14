@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "talk2Super",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "talkParent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "talkSuper",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity/solidity101/extend/Child.sol": "Child"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity/solidity101/extend/Child.sol": {
+			"keccak256": "0x92e7f33c387b61c647fd7804f40b41eafb7f0b86dbe9ac15f9d47a7f3307da43",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02e45fb2c12f0f38e6d921f7fd192374d0f32f38ea0e026a64b8efac852d02aa",
+				"dweb:/ipfs/QmchCYwZcajpB4YWbEgUR8qAESJJoKEBPSTc4sirhzTzMK"
+			]
+		},
+		"contracts/solidity/solidity101/extend/Parent.sol": {
+			"keccak256": "0xf0be2eaf09c86010f0351c9ce3e17a650d966034954e98af72183a5641c152b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f09dcfb51a30d4da7a4b6b170459220b5e39b5459f4d276e307d4aed67ed5f4c",
+				"dweb:/ipfs/QmaLFBotoAVWcrCtPyH8aRPmGMhxD69fwUojqXjdfCFfEc"
+			]
+		},
+		"contracts/solidity/solidity101/extend/SuperParent.sol": {
+			"keccak256": "0xad20ba42021f697394aec1d345f8677a0526dc803f393742455f90ded2be829b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://335bab6198cc721d8fd8641292831c314860362ffc23aebfde73775568f3b8c2",
+				"dweb:/ipfs/QmUdh6KCJDDVd3p5sKo4hcoTzwdz9J9BHS8ZFqLqoPbcA3"
+			]
+		}
+	},
+	"version": 1
+}
