@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "Sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "Value",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "Data",
+						"type": "bytes"
+					}
+				],
+				"name": "fallbackCalled",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "Sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "Value",
+						"type": "uint256"
+					}
+				],
+				"name": "receivedCalled",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity/solidity102/ReceiveETH.sol": "Receive"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity/solidity102/ReceiveETH.sol": {
+			"keccak256": "0x2336f82228680e6337f84fdd15f448769d509fc2efb418526e611d0fa0c05f00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8324b7a155e17a2767f9e34883f1b581868121a3e2beaf0295b6508c839037e",
+				"dweb:/ipfs/QmSDASqDhQn12aspdLUN5FETNukSRFsCjjUmieMcAzwAKT"
+			]
+		}
+	},
+	"version": 1
+}

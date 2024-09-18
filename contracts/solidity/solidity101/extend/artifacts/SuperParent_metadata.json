@@ -61,11 +61,11 @@
 	},
 	"sources": {
 		"contracts/solidity/solidity101/extend/SuperParent.sol": {
-			"keccak256": "0x7cd26d43009ecf573ec20eb1d155252bda9290af4fd77cd36fdfd204ff0512b8",
+			"keccak256": "0x07aa05503fa4f9d9943f608c02ae15b9993c92ff977b360c4eedef653cfa0ed8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://533ad06b7b8f836f74d3cf18544710b2eae62630b19b0377d54b157246b0f0e6",
-				"dweb:/ipfs/QmZq7Q4Rus3qcVwjPEsC5qbfWKn68UNeZ4tCqXC4ApGUMV"
+				"bzz-raw://0910bfcadafadf540f1d2cba810ab8f572e08c34bcb00ba1a9c93d376566b6bd",
+				"dweb:/ipfs/QmbeBWsEmNBy4j3csj8sdRp2Mn6adwWGFEwRbwj3Kt5YUo"
 			]
 		}
 	},
