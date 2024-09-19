@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "other",
+						"type": "address"
+					}
+				],
+				"name": "callGetX2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract OtherContract",
+						"name": "other",
+						"type": "address"
+					}
+				],
+				"name": "callOtherGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "other",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callOtherSetX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "otherContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity/solidity102/callContract/CallContract.sol": "CallContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity/solidity102/callContract/CallContract.sol": {
+			"keccak256": "0x2c281c38e398eca1605db2fbed2b1c71fb3f5cd633b88a7600dce64b2c64c733",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a514159eec7d5eab8bba43b06ae148996a03dcd76fb08f8bb2057a3c864bc861",
+				"dweb:/ipfs/QmWzew4zRwZuRMF6rHTboEhrb5imfjA3yw2RCTPNzho2Cc"
+			]
+		},
+		"contracts/solidity/solidity102/callContract/OtherContract.sol": {
+			"keccak256": "0x0c2a6c592298136438b65dac2cc87b7a0ad2e48f6def9c4551a3c954ea98c25c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c0e748530c0448ff48bf6422fc2e8b7a9001d3c4225f03c954ba017bc8cff5c",
+				"dweb:/ipfs/QmXaNpfMzGB3MAWdzK1rPTFz9cEeMz9oZXkGndGoVGGKT2"
+			]
+		}
+	},
+	"version": 1
+}
