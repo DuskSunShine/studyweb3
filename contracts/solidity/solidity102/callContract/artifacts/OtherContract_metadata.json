@@ -25,6 +25,73 @@
 				"type": "event"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "Response",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "absCallOtherGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "callNonExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
@@ -62,6 +129,10 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -92,11 +163,11 @@
 	},
 	"sources": {
 		"contracts/solidity/solidity102/callContract/OtherContract.sol": {
-			"keccak256": "0x7735eaf14559edaf313699d552a76d8e3690952b6a929a6107d7815c2a604d15",
+			"keccak256": "0x196ca4596a9f024962dc0dffd4ccd268a465b0579de3588c9faf87d51dd31a28",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fa3b1661b8200e387957b5cf5288d13124e6c5cfe984d34694800b2996e19445",
-				"dweb:/ipfs/QmTH1L1emUyQmAwGQL9WHavjQVRVzgrNvDdN98ireTR4Hw"
+				"bzz-raw://cad81df36776df4e3b22ca0dcda389fb6c27ace9dc6b0aced862bb3027dc23a0",
+				"dweb:/ipfs/Qma4HobQ6VEExzfcSKe4rinPsBhV8afddLY7PUqnhBjA7e"
 			]
 		}
 	},
