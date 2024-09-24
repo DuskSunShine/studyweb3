@@ -59,7 +59,7 @@ library Strings{
 }
 
 contract UseLibrary{
-    //类似扩展函数 对unit256类型的变量可以直接调用Strings中的方法
+    //类似扩展函数 对unit256类型的变量可以
     using Strings for uint256;
 
     function getString1(uint256 _number)external pure returns (string memory){
