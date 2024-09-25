@@ -28,4 +28,5 @@ contract Hash {
             keccak256(abi.encodePacked(string1)) ==
             keccak256(abi.encodePacked(string2));
     }
+
 }
