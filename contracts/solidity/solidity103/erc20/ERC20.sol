@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.22 <0.9.0;
 import "contracts/solidity/solidity103/erc20/IERC20.sol";
+import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol";
 
  contract ERC20 is IERC20 {
   mapping(address => uint256) public override balanceOf;
@@ -61,5 +63,12 @@ import "contracts/solidity/solidity103/erc20/IERC20.sol";
         totalSupply -= amount;
         emit Transfer(msg.sender, address(0), amount);
     }
-
+// 实现IERC165接口supportsInterface
+    function supportsInterface(bytes4 interfaceId)
+        external
+        pure
+        returns (bool)
+    {
+            return interfaceId == type(IERC20).interfaceId ;
+    }
 }
