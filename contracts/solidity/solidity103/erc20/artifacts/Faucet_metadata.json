@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "request",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SendToken",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "amountAllowed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requestTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "requestedAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity/solidity103/erc20/Faucet.sol": "Faucet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity/solidity103/erc20/Faucet.sol": {
+			"keccak256": "0x987ef41d207d1a4db745cf44497f0b903f7586187315a0e7dc56e5a88756f744",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c74f3824161fd6ff8a330e3913afe95072303a2239371d8373b489ab1fcb831",
+				"dweb:/ipfs/QmQhXHnRLTkWfdFjdTfBS6xTQYQXV2zvCRmoeZAzpvyJ8k"
+			]
+		},
+		"contracts/solidity/solidity103/erc20/IERC20.sol": {
+			"keccak256": "0x54566ddbd241663990e40d92bf954d7ec89bda6ed5c860752d73b1a6043f8c69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bc41383fbc0647f5db4e80a549a9220d58346969758d6b2b7fdb76b4bb68197",
+				"dweb:/ipfs/QmcrzkVr7UVS2h1wtAxtjcEJP1wWjFFenQ59RJn5Vw2Jmg"
+			]
+		}
+	},
+	"version": 1
+}
